@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.nav .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    min-width: 2rem;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+.nav .nav-pills {
+    text-align: right;
+    font-size: 20px;
+}
+
+.nav .link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.container {
+
+    background-color: gray;
+    text-align: center;
+    max-width: 600px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+
+}
+.container-quiz{
+    background-color: gray;
+    text-align: justify;
+    max-width: 600px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+
+}
+label,p,input{
+    margin: auto;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+.label-input {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+.input-field {
+    width: 60%;
+    padding:0.5rem;
+    height: 25px;
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-btn {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    color: #fff;
+    font-weight: bold;
+    background-color:black;
+}
+
+#output{
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+        font-weight: 900;
+        font-style: italic;
+}
+
+.footer {
+    background-color: #262A53;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 8rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-link {
+    padding: 5px 10px;
+    margin: 0 0.2rem;
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+}
